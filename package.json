@@ -1,0 +1,19 @@
+{
+  "name": "@vinikjkkj/eslint-config",
+  "version": "1.0.0",
+  "description": "My Eslint Prefered Configs",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-plugin",
+    "typescript"
+  ],
+  "author": "vinikjkkj",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^9.13.0",
+    "eslint-plugin-import": "^2.31.0"
+  }
+}
