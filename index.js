@@ -7,6 +7,7 @@ module.exports = [
   ...typescriptPlugin.configs.recommended,
   {
     files: ['**/*.{js,ts}'],
+    ignores: ["**/*eslint*"],
     languageOptions: {
       parser,
       parserOptions: {
