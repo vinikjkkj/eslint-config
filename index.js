@@ -4,7 +4,10 @@ const pluginImport = require('eslint-plugin-import')
 
 /** @type {import('eslint').Linter.Config[]} */
 module.exports = [
-  ...typescriptPlugin.configs.recommended,
+  {
+    ignores: ["**/*eslint*"],
+    ...typescriptPlugin.configs.recommended[0]
+  },
   {
     files: ['**/*.{js,ts}'],
     ignores: ["**/*eslint*"],
