@@ -2,7 +2,7 @@ const parser = require('@typescript-eslint/parser')
 const typescriptPlugin = require('typescript-eslint')
 const pluginImport = require('eslint-plugin-import')
 
-/** @type {import('eslint').ESLint.ConfigData} */
+/** @type {import('eslint').Linter.Config[]} */
 module.exports = [
   ...typescriptPlugin.configs.recommended,
   {
